@@ -1,0 +1,307 @@
+html{
+	height: 100%;
+	background: url("../img/fondo_dark.jpg") no-repeat center center fixed; 
+	background-size: cover;
+}
+body{
+	color:white;
+	font-family: 'Exo', sans-serif;
+	text-align: justify;	
+	margin: 0;
+	padding: 0;
+}
+header{
+	display:block;
+	width: 100%;
+	height: 120px;
+	background-color: rgba(100,100,129, 0.5);
+	text-align: right;
+	box-shadow: 2px 3px 10px 0px rgba(0,0,0,0.75);
+	position: fixed;
+	clear: both;
+}
+section{
+	position: relative;
+	padding: 0 4% 0 4%;
+	float: right;
+	width: 90%;
+	overflow: auto;
+}
+article{}
+aside{
+	padding: 20px 0 0 0;
+	width: 18%;
+	float: left;
+	height: 75%;
+	position:fixed;
+	border-right: 1px solid gray;
+	background-color: #111111;
+	opacity: 0.5;
+	overflow: hidden;
+	transform: translateX(-87%);
+	transition: transform .4s ease-out;
+}
+aside:hover{
+	transform: translateX(0);
+	transition: transform .4s ease-out;
+}
+footer{
+	position: relative;
+	color:white;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	font-weight: 700;
+	background-color: rgba(0,0,0, 0.5);
+	width:100%;
+	height:40px;
+	bottom: 0;
+	left:0;
+	box-shadow: 1px -1px 10px 0px rgba(0,0,0,0.75);
+}
+div.topbar{
+	display: inline-block;
+	height: 25px;
+	width: 100%;
+	background-color: black;
+}
+div.nav{
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+	height: 25px;
+	width: 100%;
+	background-color: rgba(0,0,0, 0.5);
+	clear: both;
+}
+div.cuerpo{
+	position: relative;
+	top: 130px;
+	height: auto;
+	margin: 0;
+	clear: both;
+	padding-bottom: 40px;
+}
+div.container{
+	position:relative;
+	padding: 0;
+	min-height:100%;
+	height: 100%;
+	padding-bottom: -40px;
+}
+div.centrado{
+	text-align: center;
+	width: 90%;
+}
+.logo {
+	float:left;
+	height: 42%;
+	padding-left: 18px;
+}
+p.header{
+	color: white;
+	font-size: 280%;
+	margin-top: 10px;
+	padding: 0 5%;
+}
+h2{
+	font-weight: 700;
+	text-align: center;
+	padding: 30px 30px;
+}
+h3{
+	font-weight: 700;
+	text-align: center;
+}
+p{
+	margin: inherit;
+	padding: 12px 0 0 0;
+}
+p.centrado{
+	text-align: center;
+}
+#resultado{
+	padding: 0 0 0 5%;
+	width: 20%;
+	padding: 15px;
+	border: 3px solid;
+	border-color: #FFFFFF #111111 #111111 #FFFFFF;
+	background-color: #f3f3f3;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+table{
+	color: white;
+	vertical-align: center;
+	position: center;
+	border: 3px solid;
+	border-color: #FFFFFF #111111 #111111 #FFFFFF;
+	background-color: rgba(0,0,0, 0.7);
+	text-align: left;
+	padding: 15px;
+	opacity: 0.7;
+	margin: auto;
+}
+.login{
+	vertical-align: center;
+	position: center;
+	border: 1px solid;
+	text-align: left;
+	padding: 15px;
+	margin: 20px auto;
+}
+.login td {
+	margin:20px;
+}
+tr{}
+th{
+	background-color: rgba(0,0,0, 0.8);
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+	padding: 10px;
+}
+td{
+	text-align: center;
+	padding: 5px;
+}
+ul{
+	margin: 0;
+	padding-left: 0;
+	width: 100%;
+} 
+li{
+	padding: 7px 25px 7px 20px;
+	margin: 0;
+	list-style: none;
+	/*
+	border: 2px solid;
+	border-color: #FFFFFF #5C5B5B #5C5B5B #FFFFFF; */
+}
+li:hover{
+	box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.75);
+}
+ul.perfil{
+	border-right: 1px black solid;
+	border-collapse: collapse;
+	text-align: right;
+	width: 25%;
+	float: left;
+}
+ul.perfil li:hover{
+	box-shadow: none;
+}
+ul.fotoperfil{
+	text-align: left;
+	width: 70%;
+	float: right;
+}
+ul.fotoperfil li:hover{
+	box-shadow: none;
+}
+button{
+	float: right;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+a.cabecera{
+	color: white;
+	float: left;
+	margin: 0 0px 0 40px;
+}
+a.nav{
+	display: inline;
+	color: white;
+	margin: 0 10px 0 10px;
+}
+a.perfil{
+	font-size: 70%;
+	font-weight: bold;
+}
+a.contacto{
+	display: inline;
+	margin: 0 1em;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: #eaeaea;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+input{
+	display: block;
+}
+input.inline{
+	display: inline;
+}
+label{
+	display: block;
+}
+span.errorform{
+	color: red;
+	font-size: small;
+}
+span.footer{
+	font-size: 90%;
+}
+hr{
+	color: black;
+	clear: both;
+}
+#fotoperfil{
+	float: right;
+	border: white 3px solid;
+	border-radius: 50%;
+	display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+#fotoicon{
+	float: left;
+	margin: 3px 20px 10px 20px;
+	width: 40px;
+	height: 40px;
+	border: 2px white solid;
+	border-radius: 50%;
+}
+img.portada{
+	margin: auto;
+	clear: both;
+	position: relative;
+}
+iframe{
+	width: 560px;
+    height: 315px;
+    margin: 3em auto 1em auto;
+    display: block;
+}
+#nav li{
+	display: inline;
+	margin: auto;
+	padding: 0;
+	box-shadow: none;
+	padding: auto;
+	text-align: center;
+
+}
+#nav #currentPage{
+	border-bottom: red 3px solid;
+}
+#nav #currentPage a{
+	
+}
